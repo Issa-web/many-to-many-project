@@ -25,7 +25,7 @@ class Teacher
        
     end
 
-    method that returns student names of a specific teacher
+    #method that returns student names of a specific teacher
     
 
   

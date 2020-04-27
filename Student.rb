@@ -1,3 +1,4 @@
+require 'pry'
 class Student
 
     attr_reader :name 
@@ -13,7 +14,16 @@ class Student
         @@all
     end
 
-    teacher method
+    def teachers
+       tss = TeacherStudent.all.select do |ts|
+          ts.student == self
+        end
+        tss.map do |ts| 
+            ts.teacher
+            
+        end
+      
+    end 
     
 
 end

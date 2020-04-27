@@ -11,12 +11,17 @@ paul.name
 shannon = Teacher.new("Shannon")
 chine = Teacher.new("Chine")
 
+
 paulissa = TeacherStudent.new(paul, issa)
 paulinjae = TeacherStudent.new(paul, injae)
 
 shannonissa = TeacherStudent.new(shannon, issa)
 shannonmichael = TeacherStudent.new(shannon, michael)
 
-print paul.students
 
+chineinjae = TeacherStudent.new(chine, injae)
+chinemichael = TeacherStudent.new(chine, michael)
 
+#print paul.students
+
+print injae.teachers
